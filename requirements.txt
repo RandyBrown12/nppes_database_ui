@@ -1,0 +1,5 @@
+django
+django-tailwind
+psycopg2
+django-bootstrap5
+ruff
