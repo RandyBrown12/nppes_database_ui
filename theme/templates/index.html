@@ -3,11 +3,18 @@
 <html>
 <head>
     <title>NPPES Database UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Nunito&display=swap" rel="stylesheet">
     {% tailwind_css %}
 </head>
-<body class="bg-black min-h-screen">
-    <div class="bg-cyan-500 text-white p-4 rounded text-center font-play text-3xl">NPPES Database UI </div>
-    <h1 class="text-white text-center text-4xl mt-[20px]"> Enter Information: </h1>
-    <button class="btn">Small Button</button>
+<body class="bg-black min-h-screen text-white">
+    <div id="navbar-text"class="bg-cyan-500 text-white p-4 rounded text-center font-inter text-3xl">NPPES Database UI </div>
+    <div id="form-text" class="grid w-[20%] mt-[20px] items-center mx-auto gap-y-2 border border-4 bg-cyan-500 shadow-md shadow-cyan-500/50">
+        <p class="text-white text-center mt-[20px] ml-2 font-nunito"> Enter NPI Information: </p>
+        <p class="ml-2 font-nunito"> NPI: </p>
+        <input id="npi" type="text" placeholder="Enter NPI:" class="input input-sm w-[92%] text-black ml-2 font-nunito" />
+    </div>
+    <button class="btn block mx-auto mt-[30px]">Submit Information</button>
 </body>
 </html>

@@ -9,3 +9,9 @@
   * the scope of this path.
   */
 @source "../../../**/*.{html,py,js}";
+
+@theme {
+  --font-poppins: Poppins, sans-serif;
+  --font-inter: "Inter", mono;
+  --font-nunito: "Nunito", mono;
+}
